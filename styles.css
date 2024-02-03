@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.content {
+  text-align: center;
+  height: 100vh;
+  width: 400px;
+  background-color: rgb(45, 45, 83);
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 280px;
+  height: 40px;
+  border: none;
+  z-index: 2;
+
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#marcar {
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 15px;
+
+}
+
+#borrar {
+  width: 90px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fila {
+  display: flex;
+}
+
+.fila button {
+  border:none;
+  padding: 15px;
+  margin: 5px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 30px;
+  color: white;
+  background-color:  rgb(45, 45, 83);
+}
+
+.fila button:hover {
+  background-color:  rgb(45, 45, 83);
+}
+
+.material-symbols-outlined {
+    font-size: large;
+  }

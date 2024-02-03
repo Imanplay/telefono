@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer=""></script>
     <title>Telefono</title>
 </head>
 <body>
-    
+    <div class="content">
+        <input type="text" id="phoneNumber">
+        <button id="Borrar" onclick="deleteNumber()"><span class="material-symbols-outlined">backspace</span></button>
+        <div class="numeros">
+            <div class="fila">
+                <button onclick="insertNumber('1')">1</button>
+                <button onclick="insertNumber('2')">2</button>
+                <button onclick="insertNumber('3')">3</button>
+            </div>
+            <div class="fila">
+                <button onclick="insertNumber('4')">4</button>
+                <button onclick="insertNumber('5')">5</button>
+                <button onclick="insertNumber('6')">6</button>
+            </div>
+            <div class="fila">
+                <button onclick="insertNumber('7')">7</button>
+                <button onclick="insertNumber('8')">8</button>
+                <button onclick="insertNumber('9')">9</button>
+            </div>
+            <div class="fila">
+                <button onclick="insertNumber('0')">0</button>
+                <button onclick="insertNumber('*')">*</button>
+                <button onclick="insertNumber('#')">#</button>
+            </div>
+            <button id="marcar" onclick="dial()"><span class="material-symbols-outlined">call</span></button>
 </body>
 </html>
